@@ -10,6 +10,9 @@ git log --since=2.weeks // лог за останні два тижні
 
 git log --pretty=format:"%h - %an, %ar : %s" //формат виводу логів
 
+git config --global core.editor "'C:\Program Files\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+ - зміна редактора для коментарів
+
 
 
 
