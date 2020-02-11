@@ -1,0 +1,15 @@
+git remote add origin https://github.com/WillyOvcharuk/test.git
+
+git push -u origin master
+
+git rm --cached docs -r /// видалити папку повністю з add
+
+git checkout -- App.js /// відкочуємось до коміта по вказаному файлі
+
+git log --since=2.weeks // лог за останні два тижні
+
+git log --pretty=format:"%h - %an, %ar : %s" //формат виводу логів
+
+
+
+
