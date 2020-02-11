@@ -13,6 +13,13 @@ git log --pretty=format:"%h - %an, %ar : %s" //формат виводу лог�
 git config --global core.editor "'C:\Program Files\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
  - зміна редактора для коментарів
 
+git config --global merge.tool kdiff3 - тулза для вирішеня конфліктів мержів
+
+git config --global mergetool.kdiff3.cmd '"D:\\PROGRAMMING\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE -o $MERGED' - програма для розвязання конфліктів
+
+
+
+
 
 
 
